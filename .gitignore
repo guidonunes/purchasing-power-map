@@ -1,4 +1,5 @@
 # --- GLOBAL ---
+.env
 .DS_Store
 Thumbs.db
 .idea/
