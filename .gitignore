@@ -1,0 +1,29 @@
+# --- GLOBAL ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# --- BACKEND (Java/Spring Boot) ---
+backend/target/
+backend/bin/
+backend/.mvn/wrapper/maven-wrapper.properties
+backend/**/*.class
+
+backend/src/main/resources/application-dev.yml
+backend/src/main/resources/application-prod.yml
+
+# --- FRONTEND (Node/Next.js) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
