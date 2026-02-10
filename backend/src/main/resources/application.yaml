@@ -14,3 +14,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+  app:
+    data:
+      inflation-adjustment-factor: 1.11
