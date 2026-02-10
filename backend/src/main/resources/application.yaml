@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: purchasing-power-backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/purchasingpower_db?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: ${MYSQL_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
